@@ -8,14 +8,14 @@ set number
 set cursorline
 set hlsearch 
 set incsearch
-set cc=+1
-set ignorecase
+set cc=+6
+"set ignorecase
 "set laststatus=2
 set showcmd
 set mouse=n
 
 "====== Typesetting ======
-set tw=80
+set tw=75
 set ts=8
 set sw=8
 set sm
@@ -33,12 +33,12 @@ execute pathogen#infect()
 "tlist
 let Tlist_Use_Right_Window = 1
 "syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
 
 "===== Hotkeys ====
