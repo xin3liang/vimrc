@@ -1,5 +1,5 @@
 ## usage
-1. $ cp vimrc ~/.vimrc 
+1. $ wget https://github.com/xin3liang/vimrc/raw/master/vimrc -O ~/.vimrc 
 2. install "pathogen" plugin manager into  "~/.vim/autoload" directory
 For install pathogen, please refer to [pathogen page](https://github.com/tpope/vim-pathogen)
 3. install plugin into "~/.vim/bundle" directory
